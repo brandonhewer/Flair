@@ -15,6 +15,7 @@
 		ACF2BC9D1BF769EB00F32139 /* FlairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BC9C1BF769EB00F32139 /* FlairTests.swift */; };
 		ACF2BCA81BF769EB00F32139 /* FlairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BCA71BF769EB00F32139 /* FlairUITests.swift */; };
 		ACF2BCB61BF76BA300F32139 /* ProblemStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BCB51BF76BA300F32139 /* ProblemStructure.swift */; };
+		ACF2BCB91BF76FDD00F32139 /* CryptoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BCB81BF76FDD00F32139 /* CryptoKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		ACF2BCA71BF769EB00F32139 /* FlairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlairUITests.swift; sourceTree = "<group>"; };
 		ACF2BCA91BF769EB00F32139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACF2BCB51BF76BA300F32139 /* ProblemStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemStructure.swift; sourceTree = "<group>"; };
+		ACF2BCB81BF76FDD00F32139 /* CryptoKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				ACF2BC871BF769EB00F32139 /* AppDelegate.swift */,
 				ACF2BC891BF769EB00F32139 /* ViewController.swift */,
 				ACF2BCB51BF76BA300F32139 /* ProblemStructure.swift */,
+				ACF2BCB81BF76FDD00F32139 /* CryptoKey.swift */,
 				ACF2BC8B1BF769EB00F32139 /* Main.storyboard */,
 				ACF2BC8E1BF769EB00F32139 /* Assets.xcassets */,
 				ACF2BC901BF769EB00F32139 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF2BCB91BF76FDD00F32139 /* CryptoKey.swift in Sources */,
 				ACF2BC8A1BF769EB00F32139 /* ViewController.swift in Sources */,
 				ACF2BCB61BF76BA300F32139 /* ProblemStructure.swift in Sources */,
 				ACF2BC881BF769EB00F32139 /* AppDelegate.swift in Sources */,
