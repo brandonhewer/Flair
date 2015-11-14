@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACF2BC881BF769EB00F32139 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BC871BF769EB00F32139 /* AppDelegate.swift */; };
+		ACF2BC8A1BF769EB00F32139 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BC891BF769EB00F32139 /* ViewController.swift */; };
+		ACF2BC8D1BF769EB00F32139 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF2BC8B1BF769EB00F32139 /* Main.storyboard */; };
+		ACF2BC8F1BF769EB00F32139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF2BC8E1BF769EB00F32139 /* Assets.xcassets */; };
+		ACF2BC921BF769EB00F32139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF2BC901BF769EB00F32139 /* LaunchScreen.storyboard */; };
+		ACF2BC9D1BF769EB00F32139 /* FlairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BC9C1BF769EB00F32139 /* FlairTests.swift */; };
+		ACF2BCA81BF769EB00F32139 /* FlairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BCA71BF769EB00F32139 /* FlairUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACF2BC991BF769EB00F32139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF2BC7C1BF769EB00F32139 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF2BC831BF769EB00F32139;
+			remoteInfo = Flair;
+		};
+		ACF2BCA41BF769EB00F32139 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF2BC7C1BF769EB00F32139 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF2BC831BF769EB00F32139;
+			remoteInfo = Flair;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACF2BC841BF769EB00F32139 /* Flair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF2BC871BF769EB00F32139 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACF2BC891BF769EB00F32139 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ACF2BC8C1BF769EB00F32139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACF2BC8E1BF769EB00F32139 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACF2BC911BF769EB00F32139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACF2BC931BF769EB00F32139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF2BC981BF769EB00F32139 /* FlairTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlairTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF2BC9C1BF769EB00F32139 /* FlairTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlairTests.swift; sourceTree = "<group>"; };
+		ACF2BC9E1BF769EB00F32139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACF2BCA31BF769EB00F32139 /* FlairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF2BCA71BF769EB00F32139 /* FlairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlairUITests.swift; sourceTree = "<group>"; };
+		ACF2BCA91BF769EB00F32139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF2BC811BF769EB00F32139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2BC951BF769EB00F32139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2BCA01BF769EB00F32139 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACF2BC7B1BF769EB00F32139 = {
+			isa = PBXGroup;
+			children = (
+				ACF2BC861BF769EB00F32139 /* Flair */,
+				ACF2BC9B1BF769EB00F32139 /* FlairTests */,
+				ACF2BCA61BF769EB00F32139 /* FlairUITests */,
+				ACF2BC851BF769EB00F32139 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF2BC851BF769EB00F32139 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2BC841BF769EB00F32139 /* Flair.app */,
+				ACF2BC981BF769EB00F32139 /* FlairTests.xctest */,
+				ACF2BCA31BF769EB00F32139 /* FlairUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACF2BC861BF769EB00F32139 /* Flair */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2BC871BF769EB00F32139 /* AppDelegate.swift */,
+				ACF2BC891BF769EB00F32139 /* ViewController.swift */,
+				ACF2BC8B1BF769EB00F32139 /* Main.storyboard */,
+				ACF2BC8E1BF769EB00F32139 /* Assets.xcassets */,
+				ACF2BC901BF769EB00F32139 /* LaunchScreen.storyboard */,
+				ACF2BC931BF769EB00F32139 /* Info.plist */,
+			);
+			path = Flair;
+			sourceTree = "<group>";
+		};
+		ACF2BC9B1BF769EB00F32139 /* FlairTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2BC9C1BF769EB00F32139 /* FlairTests.swift */,
+				ACF2BC9E1BF769EB00F32139 /* Info.plist */,
+			);
+			path = FlairTests;
+			sourceTree = "<group>";
+		};
+		ACF2BCA61BF769EB00F32139 /* FlairUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2BCA71BF769EB00F32139 /* FlairUITests.swift */,
+				ACF2BCA91BF769EB00F32139 /* Info.plist */,
+			);
+			path = FlairUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF2BC831BF769EB00F32139 /* Flair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF2BCAC1BF769EB00F32139 /* Build configuration list for PBXNativeTarget "Flair" */;
+			buildPhases = (
+				ACF2BC801BF769EB00F32139 /* Sources */,
+				ACF2BC811BF769EB00F32139 /* Frameworks */,
+				ACF2BC821BF769EB00F32139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flair;
+			productName = Flair;
+			productReference = ACF2BC841BF769EB00F32139 /* Flair.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACF2BC971BF769EB00F32139 /* FlairTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF2BCAF1BF769EB00F32139 /* Build configuration list for PBXNativeTarget "FlairTests" */;
+			buildPhases = (
+				ACF2BC941BF769EB00F32139 /* Sources */,
+				ACF2BC951BF769EB00F32139 /* Frameworks */,
+				ACF2BC961BF769EB00F32139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF2BC9A1BF769EB00F32139 /* PBXTargetDependency */,
+			);
+			name = FlairTests;
+			productName = FlairTests;
+			productReference = ACF2BC981BF769EB00F32139 /* FlairTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACF2BCA21BF769EB00F32139 /* FlairUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF2BCB21BF769EB00F32139 /* Build configuration list for PBXNativeTarget "FlairUITests" */;
+			buildPhases = (
+				ACF2BC9F1BF769EB00F32139 /* Sources */,
+				ACF2BCA01BF769EB00F32139 /* Frameworks */,
+				ACF2BCA11BF769EB00F32139 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF2BCA51BF769EB00F32139 /* PBXTargetDependency */,
+			);
+			name = FlairUITests;
+			productName = FlairUITests;
+			productReference = ACF2BCA31BF769EB00F32139 /* FlairUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF2BC7C1BF769EB00F32139 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Brandon Hewer";
+				TargetAttributes = {
+					ACF2BC831BF769EB00F32139 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5G3529GM7H;
+					};
+					ACF2BC971BF769EB00F32139 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5G3529GM7H;
+						TestTargetID = ACF2BC831BF769EB00F32139;
+					};
+					ACF2BCA21BF769EB00F32139 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5G3529GM7H;
+						TestTargetID = ACF2BC831BF769EB00F32139;
+					};
+				};
+			};
+			buildConfigurationList = ACF2BC7F1BF769EB00F32139 /* Build configuration list for PBXProject "Flair" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF2BC7B1BF769EB00F32139;
+			productRefGroup = ACF2BC851BF769EB00F32139 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF2BC831BF769EB00F32139 /* Flair */,
+				ACF2BC971BF769EB00F32139 /* FlairTests */,
+				ACF2BCA21BF769EB00F32139 /* FlairUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF2BC821BF769EB00F32139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF2BC921BF769EB00F32139 /* LaunchScreen.storyboard in Resources */,
+				ACF2BC8F1BF769EB00F32139 /* Assets.xcassets in Resources */,
+				ACF2BC8D1BF769EB00F32139 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2BC961BF769EB00F32139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2BCA11BF769EB00F32139 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF2BC801BF769EB00F32139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF2BC8A1BF769EB00F32139 /* ViewController.swift in Sources */,
+				ACF2BC881BF769EB00F32139 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2BC941BF769EB00F32139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF2BC9D1BF769EB00F32139 /* FlairTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2BC9F1BF769EB00F32139 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACF2BCA81BF769EB00F32139 /* FlairUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF2BC9A1BF769EB00F32139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF2BC831BF769EB00F32139 /* Flair */;
+			targetProxy = ACF2BC991BF769EB00F32139 /* PBXContainerItemProxy */;
+		};
+		ACF2BCA51BF769EB00F32139 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF2BC831BF769EB00F32139 /* Flair */;
+			targetProxy = ACF2BCA41BF769EB00F32139 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACF2BC8B1BF769EB00F32139 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF2BC8C1BF769EB00F32139 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACF2BC901BF769EB00F32139 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACF2BC911BF769EB00F32139 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACF2BCAA1BF769EB00F32139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACF2BCAB1BF769EB00F32139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF2BCAD1BF769EB00F32139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efe.Flair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACF2BCAE1BF769EB00F32139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Flair/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efe.Flair;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACF2BCB01BF769EB00F32139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efe.FlairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flair.app/Flair";
+			};
+			name = Debug;
+		};
+		ACF2BCB11BF769EB00F32139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlairTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efe.FlairTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flair.app/Flair";
+			};
+			name = Release;
+		};
+		ACF2BCB31BF769EB00F32139 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlairUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efe.FlairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Flair;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ACF2BCB41BF769EB00F32139 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FlairUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = efe.FlairUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Flair;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF2BC7F1BF769EB00F32139 /* Build configuration list for PBXProject "Flair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2BCAA1BF769EB00F32139 /* Debug */,
+				ACF2BCAB1BF769EB00F32139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF2BCAC1BF769EB00F32139 /* Build configuration list for PBXNativeTarget "Flair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2BCAD1BF769EB00F32139 /* Debug */,
+				ACF2BCAE1BF769EB00F32139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACF2BCAF1BF769EB00F32139 /* Build configuration list for PBXNativeTarget "FlairTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2BCB01BF769EB00F32139 /* Debug */,
+				ACF2BCB11BF769EB00F32139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACF2BCB21BF769EB00F32139 /* Build configuration list for PBXNativeTarget "FlairUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2BCB31BF769EB00F32139 /* Debug */,
+				ACF2BCB41BF769EB00F32139 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF2BC7C1BF769EB00F32139 /* Project object */;
+}
