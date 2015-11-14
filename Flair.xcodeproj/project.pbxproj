@@ -14,8 +14,9 @@
 		ACF2BC921BF769EB00F32139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACF2BC901BF769EB00F32139 /* LaunchScreen.storyboard */; };
 		ACF2BC9D1BF769EB00F32139 /* FlairTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BC9C1BF769EB00F32139 /* FlairTests.swift */; };
 		ACF2BCA81BF769EB00F32139 /* FlairUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BCA71BF769EB00F32139 /* FlairUITests.swift */; };
-		ACF2BCB61BF76BA300F32139 /* ProblemStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BCB51BF76BA300F32139 /* ProblemStructure.swift */; };
 		ACF2BCB91BF76FDD00F32139 /* CryptoKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BCB81BF76FDD00F32139 /* CryptoKey.swift */; };
+		ACF2BCBB1BF7704B00F32139 /* Riddle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BCBA1BF7704B00F32139 /* Riddle.swift */; };
+		ACF2BCBD1BF7705B00F32139 /* KeyPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF2BCBC1BF7705B00F32139 /* KeyPad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +50,9 @@
 		ACF2BCA31BF769EB00F32139 /* FlairUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlairUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF2BCA71BF769EB00F32139 /* FlairUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlairUITests.swift; sourceTree = "<group>"; };
 		ACF2BCA91BF769EB00F32139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACF2BCB51BF76BA300F32139 /* ProblemStructure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProblemStructure.swift; sourceTree = "<group>"; };
 		ACF2BCB81BF76FDD00F32139 /* CryptoKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoKey.swift; sourceTree = "<group>"; };
+		ACF2BCBA1BF7704B00F32139 /* Riddle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Riddle.swift; sourceTree = "<group>"; };
+		ACF2BCBC1BF7705B00F32139 /* KeyPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyPad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,9 @@
 			children = (
 				ACF2BC871BF769EB00F32139 /* AppDelegate.swift */,
 				ACF2BC891BF769EB00F32139 /* ViewController.swift */,
-				ACF2BCB51BF76BA300F32139 /* ProblemStructure.swift */,
 				ACF2BCB81BF76FDD00F32139 /* CryptoKey.swift */,
+				ACF2BCBA1BF7704B00F32139 /* Riddle.swift */,
+				ACF2BCBC1BF7705B00F32139 /* KeyPad.swift */,
 				ACF2BC8B1BF769EB00F32139 /* Main.storyboard */,
 				ACF2BC8E1BF769EB00F32139 /* Assets.xcassets */,
 				ACF2BC901BF769EB00F32139 /* LaunchScreen.storyboard */,
@@ -265,9 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACF2BCBB1BF7704B00F32139 /* Riddle.swift in Sources */,
+				ACF2BCBD1BF7705B00F32139 /* KeyPad.swift in Sources */,
 				ACF2BCB91BF76FDD00F32139 /* CryptoKey.swift in Sources */,
 				ACF2BC8A1BF769EB00F32139 /* ViewController.swift in Sources */,
-				ACF2BCB61BF76BA300F32139 /* ProblemStructure.swift in Sources */,
 				ACF2BC881BF769EB00F32139 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

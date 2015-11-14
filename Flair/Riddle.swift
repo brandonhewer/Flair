@@ -1,5 +1,5 @@
 //
-//  ProblemStructure.swift
+//  Riddle.swift
 //  Flair
 //
 //  Created by Brandon Hewer on 14/11/2015.
@@ -8,7 +8,6 @@
 
 import UIKit
 
-class ProblemStructure {
+class Riddle {
     
 }
-
